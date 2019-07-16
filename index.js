@@ -6,7 +6,7 @@
         console.log("Please enter {instance} {username} {password}");
         process.exit(1);
     }
-    var include = "sys_updated_by=162107",
+    var include = "sys_updated_by=admin",
         requestsToMake = [
             {
                 "type": "sys_script_include", 
